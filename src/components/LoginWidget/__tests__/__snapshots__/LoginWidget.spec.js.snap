@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginWidget /> should render to snapshot 1`] = `
+<main
+  className="MuiContainer-root MuiContainer-maxWidthXs"
+>
+  <div
+    className="makeStyles-paper-1"
+  >
+    <h1
+      className="MuiTypography-root MuiTypography-h5"
+    >
+      Sign in
+    </h1>
+    <form
+      className="makeStyles-form-2"
+      noValidate={true}
+      onSubmit={[Function]}
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="username"
+          id="username-label"
+        >
+          Username
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoComplete="username"
+            autoFocus={true}
+            className="MuiInputBase-input MuiOutlinedInput-input"
+            disabled={false}
+            id="username"
+            name="username"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="text"
+          />
+          <fieldset
+            aria-hidden={true}
+            className="PrivateNotchedOutline-root-100 MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="PrivateNotchedOutline-legendLabelled-102"
+            >
+              <span>
+                Username
+                 *
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <div
+        className="MuiFormControl-root MuiTextField-root MuiFormControl-marginNormal MuiFormControl-fullWidth"
+      >
+        <label
+          className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined Mui-required Mui-required"
+          data-shrink={false}
+          htmlFor="password"
+          id="password-label"
+        >
+          Password
+          <span
+            className="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+          >
+             
+            *
+          </span>
+        </label>
+        <div
+          className="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-fullWidth MuiInputBase-formControl"
+          onClick={[Function]}
+        >
+          <input
+            aria-invalid={false}
+            autoComplete="current-password"
+            autoFocus={false}
+            className="MuiInputBase-input MuiOutlinedInput-input"
+            disabled={false}
+            id="password"
+            name="password"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            required={true}
+            type="password"
+          />
+          <fieldset
+            aria-hidden={true}
+            className="PrivateNotchedOutline-root-100 MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              className="PrivateNotchedOutline-legendLabelled-102"
+            >
+              <span>
+                Password
+                 *
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-submit-3 MuiButton-fullWidth"
+        disabled={false}
+        id="submit"
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="submit"
+        value="Submit"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Log in
+        </span>
+      </button>
+    </form>
+  </div>
+</main>
+`;
